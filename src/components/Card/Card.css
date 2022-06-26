@@ -1,0 +1,17 @@
+.card {
+  background-color: #adc9ef;
+  width: 180px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.card:not(.card_visible):hover {
+  cursor: pointer;
+}
+
+.card_visible {
+  background-color: #fff;
+}
